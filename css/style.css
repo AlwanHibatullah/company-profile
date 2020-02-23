@@ -1,0 +1,68 @@
+.jumbotron {
+    background-color: #53A65E !important;
+    color: white;
+    min-height: 100vh;
+}
+
+.jumbo-title {
+    padding: 15% 0;
+    /* color: #b5d359; 181,211,89 */
+}
+
+.icon-recycle {
+    width: 75%;
+    height: 75%;
+}
+
+.navbar-light {
+    background-color: transparent !important;
+}
+
+.bg-navbar {
+    background-color: #53A65E !important;
+}
+
+.bg-footer {
+    background-color: #4E6B35 !important;
+}
+
+.fb-ic,
+.tw-ic,
+.ig-ic,
+.wa-ic {
+    color: white;
+}
+
+.programs {
+    box-shadow: 0 0 5px 0 rgba(181, 211, 89, .2);
+}
+
+.programs .program-title {
+    padding: 40px 40px 10px;
+}
+
+.programs .program-title i {
+    margin-bottom: 25px;
+    font-size: 50px;
+    color: #4E6B35;
+}
+
+.programs .program-title .title {
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    line-height: 1.8em;
+}
+
+.programs .program-description {
+    padding: 10px 40px 40px;
+    text-align: justify;
+}
+
+.programs .program-description .description {
+    margin-bottom: 22px;
+}
+
+/* id sections */
+#sticky-footer {
+    flex-shrink: none;
+}
