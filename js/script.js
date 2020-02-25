@@ -6,3 +6,10 @@ $(window).scroll(function(){
         $(".bg-navbar").css({"background" : "transparent"});
     }
 });
+
+// var preload = $(window);
+// preload.on('load', function(){
+//     $("#preloader").fadeOut('1000', function(){
+//         $(this).remove();
+//     });
+// })
