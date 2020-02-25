@@ -1,5 +1,7 @@
 .jumbotron {
-    background-color: #53A65E !important;
+    /* background-color: #53A65E !important; */
+    background-image: url(../assets/forest-under-clouds-1287075.jpg);
+    background-size: cover;
     color: white;
     min-height: 100vh;
 }
@@ -14,13 +16,19 @@
     height: 75%;
 }
 
-.navbar-light {
-    background-color: transparent !important;
+.navbar {
+    min-height: 70px;
 }
 
 .bg-navbar {
-    background-color: #53A65E !important;
+    /* background-color: #53A65E !important; */
+    transition: 500ms ease;
+    background: transparent;
 }
+
+/* .bg-navbar.scrolled{
+    background-color: #53A65E !important;
+} */
 
 .bg-footer {
     background-color: #4E6B35 !important;
