@@ -71,7 +71,67 @@
 }
 
 /* Style for Card Flip */
+.card-flip > div{
+    backface-visibility: hidden;
+    transition: transform 0.6s;
+    transition-timing-function: linear;
+    transform-style: preserve-3d;
+    min-width: 350px;
+    min-height: 471px;
+    margin: 0;
+    display: flex;
+}
 
+.bg-1{
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../assets/autumn-branches-fall-forest-235798.jpg) no-repeat;
+    background-size: cover;
+}
+
+.bg-2{
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../assets/forest-trees-fog-foggy-5106.jpg) no-repeat;
+    background-size: cover;
+}
+
+.bg-3{
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../assets/forest-under-clouds-1287075.jpg) no-repeat;
+    background-size: cover;
+}
+
+.card-front{
+    transform: rotateY(0deg);
+}
+
+.card-text{
+    text-align: justify;
+}
+
+.img-front{
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+}
+
+.card-title{
+    vertical-align: bottom;
+}
+
+.bg-opacity{
+    background: rgba(0, 0, 0, 0.301) no-repeat center center;
+}
+
+.card-back{
+    transform: rotateY(180deg);
+    position: absolute;
+    top: 0;
+}
+
+.card-flip:hover .card-front{
+    transform: rotateY(-180deg);
+}
+
+.card-flip:hover .card-back{
+    transform: rotateY(0deg);
+}
 
 /* id sections */
 #sticky-footer {
