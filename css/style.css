@@ -83,17 +83,17 @@
 }
 
 .bg-1{
-    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../assets/autumn-branches-fall-forest-235798.jpg) no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../assets/picture1.jpg) no-repeat;
     background-size: cover;
 }
 
 .bg-2{
-    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../assets/forest-trees-fog-foggy-5106.jpg) no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../assets/picture2.jpg) no-repeat;
     background-size: cover;
 }
 
 .bg-3{
-    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../assets/forest-under-clouds-1287075.jpg) no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../assets/picture3.jpg) no-repeat;
     background-size: cover;
 }
 
